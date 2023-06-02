@@ -1,0 +1,167 @@
+body{
+    
+    background: url(./Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .image img{
+    margin: 3px;
+    
+    width: 17%
+    
+
+
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+.btn .eng{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    
+}
+.btn .Sign{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    
+}
+.btn .eng{
+    margin-inline: 20px;
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+.btn .Sign:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 55px;
+}
+.main h3{
+    font-size: 27px;
+}
+.main p{
+    font-size: 20px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.first{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin-top: 160px;
+   padding: 66px;
+   border-top: 4px solid grey;
+}
+.first .one{
+   width: 300px;
+   height: 300px;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 20px;
+}
+.first .Two{
+    width: 300px;
+    height: 300px;
+}
+.first .three{
+    width: 300px;
+    height: 300px;
+}
+.first .four{
+    width: 300px;
+    height: 300px;
+}
+.buttons{
+    
+    border-top: 4px solid grey;
+}
+.buttons h1{
+    text-align: center;
+    font-size: 44px;
+}
+.buttons button{
+    width: 600px;
+    height: 60px;
+    border-color: gray;
+    color: black;
+    font-size: 25px;
+    margin-left: 350px;
+    text-align: left;
+ 
+}
+.footer{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+border-top: 4px solid grey;
+margin: 20px;
+} 
+.background{
+    
+    height: 50px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+}
+.background p{
+    color: black;
+    
+    margin-right: 280px;
+    margin-bottom: 400px;
+    opacity: 0.6;
+    
+}
+.qqq{
+    width: 120px;
+    height: 50px;
+    opacity: 0.8;
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+}
+.qqq:hover{
+    opacity: 1;
+    background-color: white;
+    color: red;
+}
